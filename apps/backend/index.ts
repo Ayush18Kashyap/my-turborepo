@@ -40,6 +40,6 @@ app.post('/api/v1/pre-interview', async (req, res) => {
     });
 });
 
+console.log('Server is running on http://localhost:3001');
 
-
-app.listen(3000);
+app.listen(3001);
